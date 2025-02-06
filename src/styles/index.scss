@@ -1,0 +1,16 @@
+@import "./variables"; //fontu çektik
+
+@import "bootstrap/scss/bootstrap";
+@import 'primeicons/primeicons.css';
+
+//css noktalarının giriş dosyası
+
+
+.content-section {
+    padding: 70px 0;
+   
+
+    &.bg{
+        background-color: $color5;
+    }
+}

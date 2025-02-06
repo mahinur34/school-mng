@@ -1,0 +1,19 @@
+/* COMMON */
+$color1: #32b4c0;
+$color2: #f174ad;
+$color3: #457588;
+$color4: #242424;
+$color5: #f1f1f1;
+$color4-op-70: rgba($color4, 0.7);
+$color1-op-70: rgba($color1, 0.7);
+
+$vendors: ("", "-webkit-", "-moz-", "-ms-", "-o-");
+
+
+/* BOOTSTRAP */
+$font-family-sans-serif: var(--font-montserrat);
+$primary: $color2;
+$secondary: $color3;
+$navbar-light-color: $color3;
+$navbar-light-hover-color: $color2;
+$navbar-light-active-color:$color2;
