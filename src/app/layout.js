@@ -1,4 +1,5 @@
 
+import Footer from "@/components/common/footer/footer";
 import MainMenubar from "@/components/common/header/main-menubar";
 import Topbar from "@/components/common/header/topbar";
 import { appConfig } from "@/helpers/config";
@@ -23,6 +24,7 @@ export default function RootLayout({children}){
                 <Topbar/>
                 <MainMenubar/>
                 {children}
+                <Footer/>
             </body>
         </html>
     )

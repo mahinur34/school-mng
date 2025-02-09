@@ -1,9 +1,10 @@
+import { Welcome } from "@/components/about/welcome";
 
 
 export default function HomePage(){
     return(
-      <div>
-        Hello
-      </div>
+     <>
+     <Welcome/>
+     </>
     )
 }
