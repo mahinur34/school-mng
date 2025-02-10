@@ -1,6 +1,7 @@
 
 import { Instructors } from '@/components/about/instructors'
 import PageHeader from '@/components/common/page-header'
+import { Spacer } from '@/components/common/spacer'
 import React from 'react'
 
 export const metadata = {
@@ -13,6 +14,7 @@ export const metadata = {
   return (
     <>
     <PageHeader title="About Us"/>
+    <Spacer/>
     <Instructors/>
     
     </>

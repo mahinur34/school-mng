@@ -12,7 +12,9 @@ const Page = () => {
   return (
     <>
     <PageHeader/>
+    <Spacer/>
     <Courses/>
+    <Spacer/>
 
     </>
   )

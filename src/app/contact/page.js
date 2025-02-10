@@ -1,4 +1,5 @@
 import PageHeader from '@/components/common/page-header'
+import { Spacer } from '@/components/common/spacer'
 import Contact from '@/components/contact/contact'
 import React from 'react'
 
@@ -11,6 +12,7 @@ const Page = () => {
   return (
    <>
    <PageHeader title="Contact Us"/>
+   <Spacer/>
    <Contact/>
    </>
   )
