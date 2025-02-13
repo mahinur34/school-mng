@@ -7,7 +7,7 @@ import slides from "@/helpers/data/slider.json";
 
 export const Slider = () => {
   return (
-    <Carousel >
+    <Carousel fade className='main-slider'>
         {slides.map((item)=>(
             <Carousel.Item key={item.id}>
             <Image 
